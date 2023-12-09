@@ -1,0 +1,34 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.grid-max {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 50%;
+}
+
+.bg-homepage {
+  background-image: url("/homepage.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-attachment: ; */
+  background-size: cover;
+}
