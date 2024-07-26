@@ -1,11 +1,6 @@
-name: Imagine Coders CI/CD 
-
-on:
-  push:
-    branches: [ "main" ]
-
+name: Super-Linter
+on: push
 jobs:
-  imagine-coders-build:
-    defaults:
-     - run: |
-        echo "hiii imahine coders"
+  super-lint:
+    name: Lint code base
+    runs-on: echo "hiii"
