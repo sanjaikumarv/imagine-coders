@@ -96,7 +96,7 @@ export default function Footer() {
             </div>
           </div>
           <p className='my-3 text-base text-gray-400 md:mt-0 md:order-1 text-center'>
-            © 2022 Imaginecoders, All rights reserved.
+            © 2024 Imaginecoders, All rights reserved.
           </p>
         </div>
       </div>
