@@ -15,3 +15,5 @@ jobs:
 
       - name: Print Hello World
         run: echo "Hello World"
+      - name: Build file
+        run: npm run build
