@@ -17,6 +17,7 @@ jobs:
         run: echo "Hello World"
       - name: Build file
         run: |
-          npm install
-          npm run build
+          yarn
+          yarn build
+          pm2 reload 0
           
